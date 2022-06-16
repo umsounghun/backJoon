@@ -1,9 +1,9 @@
 package com.example.backjun.beakjoon.Print;
 
-// 참고 블로그 : https://st-lab.tistory.com/2
-public class B2557_helloWorld {
+public class B10718_We_Love_kriii {
         public static void main(String[] args) {
-            System.out.print("Hello World!");
+            System.out.println("강한친구 대한육군");
+            System.out.println("강한친구 대한육군");
 
 
         }
