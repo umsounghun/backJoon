@@ -3,23 +3,21 @@ package com.example.backjun.beakjoon.Print;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class B2588_곱셈 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String str = br.readLine();
-        StringTokenizer st = new StringTokenizer(str, " ");
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int c = Integer.parseInt(st.nextToken());
+        int A = Integer.parseInt(br.readLine());
+        String B = br.readLine();
 
-        System.out.println((a + b) % c);
-        System.out.println(((a % c) + (b % c)) % c);
-        System.out.println((a * b) % c);
-        System.out.println(((a % c) * (b % c)) % c);
+        char[] b = B.toCharArray();
+
+        System.out.println(A * (b[2])- '0');
+        System.out.println(A * (b[1])- '0');
+        System.out.println(A * (b[0])- '0');
+        System.out.println(A * Integer.parseInt(B));
 
     }
 
