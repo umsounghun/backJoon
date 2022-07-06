@@ -32,7 +32,7 @@ public class B1002_터렛 {
     }
 
 
-    // 접점 개수 구하는 함수
+    // 접점 개수 구하는 함수이면
     public static int tangent_point(int x1, int y1, int r1, int x2, int y2, int r2) {
 
         int distance_pow = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));	// 중점간 거리 distance의 제곱
