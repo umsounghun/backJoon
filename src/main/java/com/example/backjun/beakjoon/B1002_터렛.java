@@ -28,7 +28,6 @@ public class B1002_터렛 {
             sb.append(tangent_point(x1, y1, r1, x2, y2, r2)).append('\n');
         }
         System.out.println(sb);
-
     }
 
 
