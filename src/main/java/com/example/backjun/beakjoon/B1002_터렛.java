@@ -20,7 +20,6 @@ public class B1002_터렛 {
             int x1 = Integer.parseInt(st.nextToken());
             int y1 = Integer.parseInt(st.nextToken());
             int r1 = Integer.parseInt(st.nextToken());
-
             int x2 = Integer.parseInt(st.nextToken());
             int y2 = Integer.parseInt(st.nextToken());
             int r2 = Integer.parseInt(st.nextToken());
