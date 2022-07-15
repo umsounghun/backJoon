@@ -25,6 +25,7 @@ public class B1002_터렛 {
             int r2 = Integer.parseInt(st.nextToken());
             sb.append(tangent_point(x1, y1, r1, x2, y2, r2)).append('\n');
         }
+
         System.out.println(sb);
     }
 
