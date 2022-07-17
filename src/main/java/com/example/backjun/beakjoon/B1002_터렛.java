@@ -23,6 +23,7 @@ public class B1002_터렛 {
             int x2 = Integer.parseInt(st.nextToken());
             int y2 = Integer.parseInt(st.nextToken());
             int r2 = Integer.parseInt(st.nextToken());
+
             sb.append(tangent_point(x1, y1, r1, x2, y2, r2)).append('\n');
         }
 
