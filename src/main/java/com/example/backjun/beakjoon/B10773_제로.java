@@ -14,7 +14,6 @@ public class B10773_제로 {
         Stack<Integer> stack = new Stack<Integer>();
 
         int K = Integer.parseInt(br.readLine());
-
         for(int i = 0; i < K; i++) {
             int number = Integer.parseInt(br.readLine());	// 정수 입력
 
