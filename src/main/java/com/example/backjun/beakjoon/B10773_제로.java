@@ -16,7 +16,6 @@ public class B10773_제로 {
         int K = Integer.parseInt(br.readLine());
         for(int i = 0; i < K; i++) {
             int number = Integer.parseInt(br.readLine());	// 정수 입력
-
             if(number == 0) {	// 0이라면 스택에 저장된 top 원소를 지운다.
                 stack.pop();
             }
