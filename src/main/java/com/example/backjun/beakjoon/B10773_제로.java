@@ -28,6 +28,7 @@ public class B10773_제로 {
             }
         }
 
+
         int sum = 0;
 
         for(int o : stack) {
