@@ -25,6 +25,7 @@ public class B10773_제로 {
                  * ex) stack.add(number);
                  */
                 stack.push(number);
+
             }
         }
 
