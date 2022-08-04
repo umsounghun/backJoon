@@ -26,6 +26,7 @@ public class B10773_제로 {
                  */
                 stack.push(number);
 
+
             }
         }
 
